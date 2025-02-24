@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+            gap: 20px;
+            flex-wrap: nowrap;
+            flex-basis: 30%;
+            
+            
+          
+
+        }
+        .common{
+            height: 200px;
+            width: 200px;
+            border: 1px solid grey;
+            color: white;
+            
+            
+
+        }
+        .c1{
+            background-color: red;
+
+        }
+        .c2{
+            background-color: blue;
+            
+            flex-shrink: 1;
+
+        }
+        .c3{
+            background-color: green;
+
+        }
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <section class="common c1">first</section>
+        <section class="common c2">second</section>
+        <section class="common c3">third</section>
+        
+</body>
+</html>
